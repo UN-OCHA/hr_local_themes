@@ -1,0 +1,14 @@
+name = Humanitarianresponse Local Themes
+description = Provides a local themes taxonomy
+core = 7.x
+package = Humanitarianresponse
+dependencies[] = features
+dependencies[] = humanitarianresponse_core
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = vppr
+features[features_api][] = api:2
+features[field_base][] = field_local_themes
+features[field_instance][] = taxonomy_term-local_themes-name_field
+features[taxonomy][] = local_themes
+features[user_permission][] = administer local_themes vocabulary terms
